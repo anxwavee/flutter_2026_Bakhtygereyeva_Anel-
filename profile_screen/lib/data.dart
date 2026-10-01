@@ -5,4 +5,5 @@ const List<({String label, String value})> facts = [
   (label: 'Group', value: 'CS-2426'),
   (label: 'Subject', value: 'Flutter I'),
   (label: 'Favourite widget', value: 'Padding'),
+  (label: 'Favourite widget', value: 'Padding'),
 ];
