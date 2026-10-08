@@ -14,7 +14,6 @@ class _TwoWayCounterState extends State<TwoWayCounter> {
   Future<void> _save() async {
     setState(() => _saving = true);
     await Future.delayed(const Duration(seconds: 2));
-    if (!mounted) return;
 
     setState(() => _saving = false);
     ScaffoldMessenger.of(
