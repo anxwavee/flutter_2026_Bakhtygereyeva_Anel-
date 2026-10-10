@@ -1,7 +1,6 @@
 import 'package:reading_club/models/book.dart';
 import 'package:reading_club/models/genre.dart';
 
-
 List<Book> seedBooks() {
   final now = DateTime.now();
   final today = DateTime(now.year, now.month, now.day);
@@ -36,7 +35,15 @@ List<Book> seedBooks() {
       meetingAt: at(-6, 18),
       place: 'Main hall, 3rd floor',
       copies: 10,
-      readers: const ['Timur', 'Saule', 'Aigerim', 'Nurlan', 'Dana', 'Erik', 'Zhanna'],
+      readers: const [
+        'Timur',
+        'Saule',
+        'Aigerim',
+        'Nurlan',
+        'Dana',
+        'Erik',
+        'Zhanna',
+      ],
       notes: 'We compared the book with the 2021 film.',
     ),
     Book(
@@ -138,7 +145,16 @@ List<Book> seedBooks() {
       meetingAt: at(-12, 18),
       place: 'Main hall, 3rd floor',
       copies: 8,
-      readers: const ['Timur', 'Dias', 'Nurlan', 'Erik', 'Dana', 'Zhanna', 'Asel', 'Madina'],
+      readers: const [
+        'Timur',
+        'Dias',
+        'Nurlan',
+        'Erik',
+        'Dana',
+        'Zhanna',
+        'Asel',
+        'Madina',
+      ],
       notes: 'Full and finished: on to book two next term.',
     ),
   ];
