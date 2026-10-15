@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/hello/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/hello/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/hello/build" />
+      <excludeFolder url="file://$MODULE_DIR$/never_overflows/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/never_overflows/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/never_overflows/build" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_screen/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_screen/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_screen/build" />
+      <excludeFolder url="file://$MODULE_DIR$/reactive_screen/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/reactive_screen/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/reactive_screen/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
